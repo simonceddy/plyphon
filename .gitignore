@@ -1,0 +1,5 @@
+# Ignore cache files from VS Code
+__pycache__/*
+
+# Ignore random files from the cheeky Mac
+.DS_Store
