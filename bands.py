@@ -1,3 +1,4 @@
+import sys
 from band.Band import Band
 from band.BattleOfTheBands import BattleOfTheBands
 from band.musicians import Bassist, Drummer, Guitarist, Vocalist
@@ -33,6 +34,10 @@ class JLo(Vocalist):
 
 class JNo(Vocalist):
     name: str = 'Not J Lo'
+
+print(sys.argv)
+if sys.argv[1] != None:
+    nameOne = sys.argv[1]
 
 freshBand = Band('Diggers')
 
